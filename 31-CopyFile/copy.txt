@@ -1,0 +1,2 @@
+About to copy with file
+into new file copy file
