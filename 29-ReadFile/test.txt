@@ -1,0 +1,3 @@
+Hello my name is Alex:
+
+Testing the file reading function.
