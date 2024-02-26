@@ -5,7 +5,7 @@ sets = collection which is unordered, unindexed. No duplicate values.
 utensils = {"fork", "spoon", "knife", "knife", "knife"}
 
 for x in utensils:
-  print(x)
+    print(x)
 
 utensils.add("napkin")
 print(utensils)

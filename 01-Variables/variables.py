@@ -1,6 +1,7 @@
-'''
+"""
 Variable = a container for a value. Behaves as the value that it contains.
-'''
+"""
+
 # str = string a series of characters
 first_name = "Yashar"
 last_name = "Tukhfatullin"
@@ -35,11 +36,11 @@ print(type(human))
 print("Are you a human: " + str(human))
 print("======================")
 
-'''
+"""
 Multiple assignment = allows us to assign multiple variable at the same time in one line of code.
-'''
+"""
 
-new_name, new_age,new_attractive = "Ryan", 21, True
+new_name, new_age, new_attractive = "Ryan", 21, True
 print(new_name)
 print(new_age)
 print(new_attractive)
@@ -50,4 +51,3 @@ print(Ryan)
 print(Jake)
 print(Josh)
 print(Kyle)
-

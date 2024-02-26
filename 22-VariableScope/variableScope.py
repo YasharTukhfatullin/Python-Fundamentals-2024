@@ -8,11 +8,14 @@ E = Enclosing
 G = Global
 B = Built-in
 """
-name = "Bro" # Global scope (available inside & outside function)
+
+name = "Bro"  # Global scope (available inside & outside function)
+
 
 def display_name():
-  name = "Code" # Local scope (available inside this function)
-  print(name)
+    name = "Code"  # Local scope (available inside this function)
+    print(name)
+
 
 display_name()
 print(name)

@@ -4,7 +4,9 @@ keyword arguments = arguments preceded by an identifier when we pass them to a f
                     Python knows the names of the arguments that our function receives
 """
 
+
 def name(first, middle, last):
-  print("Hello " + first + middle + last)
+    print("Hello " + first + middle + last)
+
 
 name(first="Yashar ", middle="Lucas ", last="Scott")

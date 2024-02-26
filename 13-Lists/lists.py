@@ -11,16 +11,16 @@ food[0] = "Sushi"
 print(food)
 
 for i in food:
-  print(i)
+    print(i)
 print("==================")
 
-food.append("ice cream") # adds value at the end
+food.append("ice cream")  # adds value at the end
 print(food)
 
-food.remove("hotdog") # removes value 
+food.remove("hotdog")  # removes value
 print(food)
 
-food.pop() # removes last value in the list 
+food.pop()  # removes last value in the list
 print(food)
 
 food.insert(0, "Cake")

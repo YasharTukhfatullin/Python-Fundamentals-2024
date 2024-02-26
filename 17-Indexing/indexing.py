@@ -4,8 +4,8 @@ index operator [] = gives access to a sequence's element (str, list, tuples)
 
 name = "Yashar Tukhfatullin"
 
-if (name[0] == name.islower()):
-  name = name.capitalize()
+if name[0] == name.islower():
+    name = name.capitalize()
 print(name)
 print("==========")
 

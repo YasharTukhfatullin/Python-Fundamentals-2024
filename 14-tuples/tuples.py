@@ -11,8 +11,8 @@ print(student.index("male"))
 print("===============")
 
 for x in student:
-  print(x)
+    print(x)
 print("===============")
 
 if "Kyle" in student:
-  print("Kyle is here")
+    print("Kyle is here")

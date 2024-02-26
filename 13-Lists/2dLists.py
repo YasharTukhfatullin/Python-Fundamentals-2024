@@ -1,6 +1,7 @@
 """
 2d lists = a list of lists
 """
+
 drinks = ["coffee", "soda", "tea"]
 dinner = ["pizza", "hamburger", "hotdog"]
 dessert = ["ice cream", "cake"]

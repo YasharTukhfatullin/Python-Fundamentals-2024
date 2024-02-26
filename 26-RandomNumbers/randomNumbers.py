@@ -1,4 +1,4 @@
-import random # random module
+import random  # random module
 
 x = random.randint(1, 6)
 print(x)
