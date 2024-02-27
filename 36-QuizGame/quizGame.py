@@ -1,3 +1,20 @@
+# Dictionaries
+questions = {
+    "Who created Python? ": "A",
+    "What year was Python created? ": "B",
+    "Python is tribute to which comedy group? ": "C",
+    "Is the Earth round? ": "A",
+}
+
+# 2D List.
+options = [
+    ["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuckerburg"],
+    ["A. 1989", "B. 1991", "C. 2000", "D. 2016"],
+    ["A. Lonely Islands", "B. Smosh", "C. Monty Python", "D. SNL"],
+    ["A. True", "B. False", "C. Sometimes", "D. What's Earth?"],
+]
+
+
 def new_game():
     guesses = []
     correct_guesses = 0
@@ -15,7 +32,6 @@ def new_game():
 
         correct_guesses += check_answer(questions.get(key), guess)
         question_num += 1
-
     display_score(correct_guesses, guesses)
 
 
@@ -56,22 +72,6 @@ def play_again():
     else:
         return False
 
-
-# Dictionaries
-questions = {
-    "Who created Python? ": "A",
-    "What year was Python created? ": "B",
-    "Python is tribute to which comedy group? ": "C",
-    "Is the Earth round? ": "A",
-}
-
-# 2D List.
-options = [
-    ["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuckerburg"],
-    ["A. 1989", "B. 1991", "C. 2000", "D. 2016"],
-    ["A. Lonely Islands", "B. Smosh", "C. Monty Python", "D. SNL"],
-    ["A. True", "B. False", "C. Sometimes", "D. What's Earth?"],
-]
 
 new_game()
 
