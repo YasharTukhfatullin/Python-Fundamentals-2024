@@ -1,7 +1,6 @@
 """
 sort() method = used with lists
 sort() function = used with iterables
-
 """
 
 students = ["Ryan", "Bryson", "Jake", "Andrew", "Yashar"]
